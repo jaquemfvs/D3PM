@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<body background="../static/imag/fundo2.png">
+    <div class="cab">
+        <div>
+        <img src="../static/imag/logo.png" alt="logo" class="logo">
+        </div>
+        <nav>
+        <a href="/"> Home |</a>
+        <a href="/qmsomos"> Quem Somos |</a>
+        <a href="/contato"> Contato | </a>
+        <a href="/users"> Lista  </a>
+        </nav>
+    </div>
+    <div class="qm">
+        <h1>Entre em contato</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe excepturi incidunt totam nihil laborum dolor?
+            At eaque vel nulla ad ex deleniti. Quo, id consectetur similique dolore deleniti tempora earum?</p>
+    </div>
+    <hr width="90%">
+    <div class="qm">
+        <form method = "post" action="/contato">
+            Seu e-mail:
+            <br>
+            <input type="text" name="email">
+            <br>
+            Assunto:
+            <br>
+            <input type="text" name="assunto">
+            <br>
+            Descrição:
+            <br>
+            <textarea cols="20" rows="3" name="descricao"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+
+    </div>
+</body>
+{% endblock %}
+</html>

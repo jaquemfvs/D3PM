@@ -1,0 +1,45 @@
+body {
+    padding: 10;
+    margin: auto;
+    width: 80%;
+
+}
+
+.cab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-top: 3.5%;
+    padding-left: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}   
+
+a:link {
+    color: #00F;
+     }
+a:hover {
+    color: rgb(223, 33, 137);
+    }
+   
+.capa {
+    padding-top: 3.8%;
+    padding-left: 5%;
+}
+
+.qm {
+    padding-left: 5%;
+}
+
+.li {
+    list-style-type: none;
+  }
+
+footer {
+    padding-top: 3%;
+    text-align: center;
+    font-weight: bold;
+    }
